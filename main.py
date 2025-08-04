@@ -23,7 +23,6 @@ import sys
 import re
 from pyrogram import Client as bot
 DEF_FORMAT = "480"
-from dotenv import load_dotenv
 load_dotenv()
 os.makedirs("./downloads", exist_ok=True)
 API_ID = 27660379
